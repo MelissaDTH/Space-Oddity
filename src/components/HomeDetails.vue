@@ -1,30 +1,40 @@
 <template>
-    <v-container>
-        <v-layout column>
-            <v-flex  class="display-2 text-xs-center my-5">Big Title Goes Here</v-flex>
-            <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
-                <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus. Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam accumsan ut sem eget efficitur. Vivamus in tortor gravida eros laoreet condimentum nec vel dui. Nullam quam massa, ultrices eget tincidunt a, pulvinar ac libero.</p>
-            </v-flex>
-            <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
-                <p class="subheading mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus. Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam accumsan ut sem eget efficitur. Vivamus in tortor gravida eros laoreet condimentum nec vel dui. Nullam quam massa, ultrices eget tincidunt a, pulvinar ac libero.</p>
-
-                <p class="subheading mt-3">Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.</p>
-
-                <p class="subheading mt-3">Aenean erat metus, imperdiet eget nisl laoreet, venenatis ultricies ante. In interdum ante vel dictum ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sit amet gravida diam. Aliquam in tempor metus. Fusce pellentesque pharetra sem, et luctus justo tempor dictum. Ut feugiat est sed tristique egestas. Nullam posuere a nunc in blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse laoreet ultrices eros, nec malesuada enim semper sit amet. Maecenas efficitur consectetur accumsan. Etiam in aliquam turpis, ut pharetra nulla. Vestibulum malesuada, nulla id elementum cursus, nibh dui rhoncus felis, suscipit mattis felis enim sed ex. Pellentesque scelerisque aliquam lorem, vel mattis nibh tincidunt ac. Suspendisse ac nibh sit amet lacus ullamcorper maximus.</p>
-            </v-flex>
-            <v-flex>
-                <div class="headline mt-3">Lorem ipsum</div>
-                <p class="subheading mt-3">Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.</p>
-            </v-flex>
-        </v-layout>
-    </v-container>
+  <v-container>
+    <v-layout column>
+      <v-flex class="display-2 text-xs-center my-5">Are you ready to fly away?</v-flex>
+      <v-flex>
+        <div class="headline mt-3">Our Solar System</div>
+        <p
+          class="subheading mt-3"
+        >The planetary system is located in an outer spiral arm of the Milky Way galaxy. Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way.</p>
+        <p class="subheading mt-3">
+          There are more planets than stars in our galaxy. The current count orbiting our star: eight.
+          The inner, rocky planets are Mercury, Venus, Earth and Mars. The outer planets are gas giants Jupiter and Saturn and ice giants Uranus and Neptune.
+          Beyond Neptune, a newer class of smaller worlds called dwarf planets reign, including perennial favorite Pluto.
+        </p>
+      </v-flex>
+      <v-flex>
+        <div class="headline mt-3">Terrestrial Planets</div>
+        <p
+          class="subheading mt-3"
+        >The terrestrial planets are the four innermost planets in the solar system, Mercury, Venus, Earth and Mars. They are called terrestrial because they have a compact, rocky surface like the Earth's. The planets, Venus, Earth, and Mars have significant atmospheres while Mercury has almost none. The following diagram shows the approximate distance of the terrestrial planets to the Sun.</p>
+      </v-flex>
+      <v-flex>
+        <div class="headline mt-3">The Spacecrafts that have headed into Interstellar space</div>
+        <p class="subheading mt-3">
+          Five spacecraft have achieved enough velocity to eventually travel beyond the boundaries of our solar system. Two of them reached the unexplored space between the stars after several decades in space:
+          <br />- Voyager 1 went interstellar in 2012 and Voyager 2 joined it in 2018. Both spacecraft are still in communication with Earth. Both spacecraft launched in 1977.
+          <br />- NASA's New Horizons spacecraft—currently exploring the an icy region beyond Neptune called the Kuiper Belt—eventually will leave our solar system.
+          <br />- Pioneer 10 and Pioneer 11 also will ultimately travel silently among the stars. The spacecraft used up their power supplies decades ago.
+        </p>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
 export default {
-    name: 'HomeDetails'
+  name: 'HomeDetails'
 };
 </script>
 
