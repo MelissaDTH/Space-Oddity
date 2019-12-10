@@ -19,7 +19,7 @@
                     <v-card-title primary-title>
                         <div>
                             <h3 class="headline mb-0">Earth</h3>
-                            <div>Earth is the third planet from the Sun and the only astronomical object <br/> known to harbor life. The Earth was <br/> formed over 4.5 billion years ago. <br /> Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite.
+                            <div class="div-text">Earth is the third planet from the Sun and the only astronomical object known to <br/> harbor life. The Earth was formed over <br/> 4.5 billion years ago. <br /> Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite.
                             </div>
                         </div>
                     </v-card-title>
@@ -40,7 +40,7 @@
                     <v-card-title primary-title>
                         <div>
                             <h3 class="headline mb-0">The Moon</h3>
-                            <div>The moon may not be defined as a <br/> planet, it definitely acts like one. Like the Earth, our moon has a crust, a mantle and a core. These interior layers are present on most planets, even if <br/> the crust is made of rock or ice. The Moon is probably formed about 4.51 billion years ago, not long after Earth.
+                            <div class="div-text">The moon may not be defined as a <br/> planet, it definitely acts like one. Like the Earth, our moon has a crust, a mantle and a core. These interior layers are present on most planets. The Moon is probably formed about 4.51 billion years ago, not long after Earth.
                             </div>
                         </div>
                     </v-card-title>
@@ -61,7 +61,7 @@
                     <v-card-title primary-title>
                         <div>
                             <h3 class="headline mb-0">Mars</h3>
-                            <div>Mars is the fourth planet from the <br /> Sun and the second-smallest planet in the Solar System. The days and <br/>seasons are comparable to those of Earth, because the rotational period as well as the tilt of the rotational axis relative to the ecliptic plane are very similar.
+                            <div class="div-text">Mars is the fourth planet from the <br /> Sun and the second-smallest planet in the Solar System. The days and <br/>seasons are comparable to those of Earth, because the rotational period as well as the tilt of the rotational axis relative to the ecliptic plane are very similar.
                             </div>
                         </div>
                     </v-card-title>
@@ -78,4 +78,7 @@ export default {
 </script>
 
 <style scoped>
+.div-text {
+  font-size: 18px;
+}
 </style>
