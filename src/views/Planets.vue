@@ -1,14 +1,21 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Talking about planets</h1>
-        </v-layout>
-    </v-container>
+  <span>
+    <PlanetsPage />
+    <PlanetsInfo />
+  </span>
 </template>
+
 <script>
+// @ is an alias to /src
+import PlanetsPage from '@/components/Planets/PlanetsPage.vue'
+import PlanetsInfo from '@/components/Planets/PlanetsInfo.vue'
+
+
 export default {
-    name: 'Planets'
+  name: 'Planets',
+  components: {
+    PlanetsPage,
+    PlanetsInfo
+  }
 };
 </script>
-<style scoped>
-</style>

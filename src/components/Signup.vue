@@ -6,14 +6,14 @@
       </v-card-title>
       <v-card-text>
         <v-form>
-          <v-text-field label="Username" 
-          prepend-icon="account_circle"/>
-          <v-text-field 
-          :type="showPassword ? 'text' : 'password'" 
-          label="Password"
-          prepend-icon="lock"
-          :append-icon="showPassword ? 'remove_red_eye' : 'block'"
-          @click:append="showPassword = !showPassword" />
+          <v-text-field label="Username" prepend-icon="account_circle" />
+          <v-text-field
+            :type="showPassword ? 'text' : 'password'"
+            label="Password"
+            prepend-icon="lock"
+            :append-icon="showPassword ? 'remove_red_eye' : 'block'"
+            @click:append="showPassword = !showPassword"
+          />
         </v-form>
       </v-card-text>
       <v-card-actions>
@@ -28,8 +28,8 @@
 <script>
 export default {
   name: 'Signup',
-  data: () => ({ 
+  data: () => ({
     showPassword: false
   })
-}
+};
 </script>
