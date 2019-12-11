@@ -5,11 +5,11 @@
       <div class="display-4 font-weight-black white--text text-xs-center">
         PLANETS
       </div>
-      <br /> <br />
+      <br />
+      <br />
       <div class="display-1 font-weight-bold white--text text-xs-center">
         Explore every planet and discover all there is to know
       </div>
-
     </v-layout>
   </v-container>
 </template>

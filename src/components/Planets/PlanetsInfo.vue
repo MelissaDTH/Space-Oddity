@@ -1,7 +1,10 @@
 <template>
   <v-container grid-list-lg>
     <v-layout row>
-      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5"></v-flex>
+      <v-flex
+        xs12
+        class="text-xs-center display-1 font-weight-black my-5"
+      ></v-flex>
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md6>
@@ -22,12 +25,16 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">Astronomy photo of the day</h3>
-              <div
-                class="div-text"
-              >Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</div>
+              <div class="div-text">
+                Discover the cosmos! Each day a different image or photograph of
+                our fascinating universe is featured, along with a brief
+                explanation written by a professional astronomer.
+              </div>
             </div>
             <v-card-actions>
-              <v-btn outline block color="blue" @click="showRecipes('vegan')">Go here</v-btn>
+              <v-btn block color="blue" @click="showAstronomy('photo')"
+                >Go here</v-btn
+              >
             </v-card-actions>
           </v-card-title>
         </v-card>
@@ -48,12 +55,14 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">Mars Rover photos</h3>
-              <div
-                class="div-text"
-              >There are different rovers on Mars gathering data. The collected image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars can be found here!</div>
+              <div class="div-text">
+                There are different rovers on Mars gathering data. The collected
+                image data gathered by NASA's Curiosity, Opportunity, and Spirit
+                rovers on Mars can be found here!
+              </div>
             </div>
-                        <v-card-actions>
-              <v-btn outline block color="blue" @click="showRecipes('vegan')">Go here</v-btn>
+            <v-card-actions>
+              <v-btn block color="blue">Go here</v-btn>
             </v-card-actions>
           </v-card-title>
         </v-card>
@@ -92,7 +101,12 @@
 
 <script>
 export default {
-  name: 'Planets'
+  name: 'Planets',
+  methods: {
+    showAstronomy(photo) {
+      this.$store.dispatch('getAstronomyPhoto', photo);
+    }
+  }
 };
 </script>
 
@@ -101,4 +115,3 @@ export default {
   font-size: 16px;
 }
 </style>
-
