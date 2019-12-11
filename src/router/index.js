@@ -21,6 +21,10 @@ const routes = [
     component: () => import('../views/Worldmap')
   },
   {
+    path: '/planets/photo-of-the-day',
+    component: () => import('../views/AstronomyPhoto')
+  },
+  {
     path: '/signup',
     component: Signup
   }

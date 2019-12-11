@@ -32,7 +32,11 @@
               </div>
             </div>
             <v-card-actions>
-              <v-btn block color="blue" @click="showAstronomy('photo')"
+              <v-btn
+                block
+                color="blue"
+                @click="showAstronomy('photo')"
+                to="/planets/photo-of-the-day"
                 >Go here</v-btn
               >
             </v-card-actions>
