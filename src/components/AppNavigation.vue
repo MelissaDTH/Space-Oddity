@@ -21,11 +21,13 @@
     <v-toolbar color="blue darken-4" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-sm-and-up"></v-app-bar-nav-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
-      <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+      <router-link to="/">
+        <v-toolbar-title class='title'>{{appTitle}}</v-toolbar-title>
+      </router-link>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
-      <v-btn text class="hidden-sm-and-down">Planets</v-btn>
-      <v-btn text class="hidden-sm-and-down">World map</v-btn>
-      <v-btn text class="hidden-sm-and-down">Sign up</v-btn>
+      <v-btn text class="hidden-sm-and-down" to="/planets">Planets</v-btn>
+      <v-btn text class="hidden-sm-and-down" to="/world-map">World map</v-btn>
+      <v-btn text class="hidden-sm-and-down" to="/signup">Sign up</v-btn>
     </v-toolbar>
   </span>
 </template>
@@ -48,4 +50,12 @@ export default {
 </script>
 
 <style scoped>
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  text-transform: uppercase;
+}
 </style>
