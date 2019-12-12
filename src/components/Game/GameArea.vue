@@ -177,6 +177,8 @@ export default {
   height: calc(100% - #{$scoreBoardHeight});
   overflow: hidden;
   margin-top: $scoreBoardHeight;
+  background: url('https://images.unsplash.com/photo-1459624470348-67edb45d81b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
 
   .areaField {
     display: block;

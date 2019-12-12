@@ -6,9 +6,9 @@ import vuetify from './plugins/vuetify';
 import '@babel/polyfill';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { faPlayCircle, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faPlayCircle);
+library.add(faPlayCircle, faGlobeAmericas);
 
 Vue.component('fa-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
