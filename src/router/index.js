@@ -14,6 +14,7 @@ const routes = [
   },
   {
     path: '/planets',
+    name: 'planets',
     component: () => import('../views/Planets')
   },
   {
@@ -28,10 +29,12 @@ const routes = [
   },
   {
     path: '/planets/photo-of-the-day',
+    name: "photoDay",
     component: () => import('../views/AstronomyPhoto')
   },
   {
     path: '/planets/mars-rover',
+    name: 'marsRover',
     component: () => import('../views/MarsRover')
   },
   {

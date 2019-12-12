@@ -34,7 +34,8 @@
         <v-icon left>language</v-icon>Planets
       </v-btn>
       <v-btn text class="hidden-sm-and-down" to="/snake-game-welcome">
-        <v-icon left>navigation</v-icon>Snake Game
+        <v-icon left>videogame_asset
+</v-icon>Snake Game
       </v-btn>
       <v-btn text class="hidden-sm-and-down" to="/signup">
         <v-icon left>account_circle</v-icon>Sign up

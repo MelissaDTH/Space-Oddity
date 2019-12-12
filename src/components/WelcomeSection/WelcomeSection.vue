@@ -32,6 +32,7 @@ export default {
 
 .welcome {
   padding: 80px 40px;
+  // background: grey;
 
   .welcomeTitle {
     color: white;

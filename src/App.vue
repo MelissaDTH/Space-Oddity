@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <app-navigation></app-navigation>
+    <app-navigation v-if="$route.name!='game'"></app-navigation>
     <v-content transition="slide-x-transition">
       <router-view></router-view>
-      <app-footer></app-footer>
+      <app-footer v-if="$route.name!='game'"></app-footer>
     </v-content>
   </v-app>
 </template>
