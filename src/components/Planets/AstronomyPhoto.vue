@@ -18,13 +18,14 @@
               <h5 class="div-date">{{ astronomyPhoto.date }}</h5>
               <br />
               <div class="div-explanation">
-                {{ astronomyPhoto.explanation }}
+                <i>{{ astronomyPhoto.explanation }}</i>
               </div>
             </div>
           </v-card-title>
         </v-card>
       </v-flex>
     </v-layout>
+    <div class="text-center"></div>
   </v-container>
 </template>
 

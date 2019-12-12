@@ -8,7 +8,7 @@
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md6>
-        <v-card>
+        <v-card @click="showAstronomy('photo')" to="/planets/photo-of-the-day">
           <v-img
             src="https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg"
             height="250px"
@@ -21,7 +21,6 @@
               </v-layout>
             </v-container>
           </v-img>
-
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">Astronomy photo of the day</h3>
@@ -46,7 +45,7 @@
       <v-spacer />
 
       <v-flex xs12 sm12 md6>
-        <v-card>
+        <v-card @click="showMarsRover('photo')" to="/planets/mars-rover">
           <v-img src="https://bit.ly/2REf6xF" height="250px">
             <v-container fill-height fluid>
               <v-layout fill-height>
@@ -73,7 +72,7 @@
       </v-flex>
     </v-layout>
 
-        <v-layout column>
+    <v-layout column>
       <v-flex class="display-2 text-xs-center my-5"
         >What do you wanna know?</v-flex
       >
@@ -98,19 +97,25 @@
         </p>
       </v-flex>
       <v-flex>
-        <div class="headline mt-3">Terrestrial Planets</div>
+        <div class="headline mt-3">
+          100 Billion alien planets fill our Milky Way Galaxy
+        </div>
         <p class="subheading mt-3">
-          The terrestrial planets are the four innermost planets in the solar
-          system, Mercury, Venus, Earth and Mars. They are called terrestrial
-          because they have a compact, rocky surface like the Earth's. The
-          planets, Venus, Earth, and Mars have significant atmospheres while
-          Mercury has almost none. The following diagram shows the approximate
-          distance of the terrestrial planets to the Sun.
+          Our Milky Way galaxy is home to at least 100 billion alien planets,
+          and possibly many more, a new study suggests. "It's a staggering
+          number, if you think about it," lead author Jonathan Swift, of Caltech
+          in Pasadena, said in a statement. "Basically there's one of these
+          planets per star." Swift and his colleagues arrived at their estimate
+          after studying a five-planet system called Kepler-32, which lies about
+          915 light-years from Earth. The five worlds were detected by NASA's
+          Kepler Space Telescope, which flags the tiny brightness dips caused
+          when exoplanets cross their star's face from the instrument's
+          perspective.
         </p>
       </v-flex>
     </v-layout>
 
-   <v-layout row>
+    <v-layout row>
       <v-flex
         xs12
         class="text-xs-center display-1 font-weight-black my-5"
@@ -142,13 +147,7 @@
               </div>
             </div>
             <v-card-actions>
-              <v-btn
-                block
-                color="blue"
-                @click="showAstronomy('photo')"
-                to="/planets/photo-of-the-day"
-                >Go here</v-btn
-              >
+              <v-btn block color="blue">Go here</v-btn>
             </v-card-actions>
           </v-card-title>
         </v-card>
@@ -182,8 +181,7 @@
         </v-card>
       </v-flex>
     </v-layout>
-    
-  </v-container> 
+  </v-container>
 </template>
 
 <script>
@@ -192,6 +190,9 @@ export default {
   methods: {
     showAstronomy(photo) {
       this.$store.dispatch('getAstronomyPhoto', photo);
+    },
+    showMarsRover(photo) {
+      this.$store.dispatch('getMarsRover', photo);
     }
   }
 };
@@ -200,5 +201,9 @@ export default {
 <style scoped>
 .div-text {
   font-size: 16px;
+}
+
+.v-btn {
+  align-content: center;
 }
 </style>

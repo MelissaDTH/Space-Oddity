@@ -25,6 +25,10 @@ const routes = [
     component: () => import('../views/AstronomyPhoto')
   },
   {
+    path: '/planets/mars-rover',
+    component: () => import('../views/MarsRover')
+  },
+  {
     path: '/signup',
     component: Signup
   }

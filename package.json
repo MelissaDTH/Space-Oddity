@@ -48,7 +48,7 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint",
-      "no-console": false,
+      "no-console": 6,
         "no-debugger": 1
     }
   },
