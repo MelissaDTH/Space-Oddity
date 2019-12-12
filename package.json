@@ -49,7 +49,7 @@
     "parserOptions": {
       "parser": "babel-eslint",
       "no-console": 6,
-        "no-debugger": 1
+      "no-debugger": 1
     }
   },
   "prettier": {

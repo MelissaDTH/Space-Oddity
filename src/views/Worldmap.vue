@@ -1,13 +1,18 @@
 <template>
-  <v-container fluid>
-    <v-layout>
-      <h1>Showing a great Worldmap here</h1>
-    </v-layout>
-  </v-container>
+  <span>
+    <WorldMap />
+
+  </span>
 </template>
+
 <script>
+// @ is an alias to /src
+import WorldMap from '@/components/WorldMap/WorldMap'
+
 export default {
-  name: 'Worldmap'
+  name: 'WorldMapView',
+  components: {
+    WorldMap
+  }
 };
 </script>
-<style scoped></style>
