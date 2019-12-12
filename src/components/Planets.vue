@@ -8,18 +8,20 @@
     <v-layout row wrap>
       <v-flex xs12 sm12 md4>
         <v-card>
-          <v-img
-            src="https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            height="500px"
-          >
-            <v-container fill-height fluid>
-              <v-layout fill-height>
-                <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">EARTH</span>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-img>
+          <router-link to="/planets">
+            <v-img
+              src="https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              height="500px"
+            >
+              <v-container fill-height fluid>
+                <v-layout fill-height>
+                  <v-flex xs12 align-end flexbox>
+                    <span class="headline white--text">EARTH</span>
+                  </v-flex>
+                </v-layout>
+              </v-container>
+            </v-img>
+          </router-link>
 
           <v-card-title primary-title>
             <div>
@@ -39,15 +41,17 @@
 
       <v-flex xs12 sm12 md4>
         <v-card>
-          <v-img src="https://bit.ly/35c0Yzz" height="500px">
-            <v-container fill-height fluid>
-              <v-layout fill-height>
-                <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">THE MOON</span>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-img>
+          <router-link to="/planets">
+            <v-img src="https://bit.ly/35c0Yzz" height="500px">
+              <v-container fill-height fluid>
+                <v-layout fill-height>
+                  <v-flex xs12 align-end flexbox>
+                    <span class="headline white--text">THE MOON</span>
+                  </v-flex>
+                </v-layout>
+              </v-container>
+            </v-img>
+          </router-link>
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">The Moon</h3>
@@ -66,15 +70,17 @@
 
       <v-flex xs12 sm12 md4>
         <v-card>
-          <v-img src="https://bit.ly/2REf6xF" height="500px">
-            <v-container fill-height fluid>
-              <v-layout fill-height>
-                <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">MARS</span>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-img>
+          <router-link to="/planets">
+            <v-img src="https://bit.ly/2REf6xF" height="500px">
+              <v-container fill-height fluid>
+                <v-layout fill-height>
+                  <v-flex xs12 align-end flexbox>
+                    <span class="headline white--text">MARS</span>
+                  </v-flex>
+                </v-layout>
+              </v-container>
+            </v-img>
+          </router-link>
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">Mars</h3>
@@ -103,5 +109,9 @@ export default {
 <style scoped>
 .div-text {
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

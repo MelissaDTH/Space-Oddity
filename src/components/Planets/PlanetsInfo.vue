@@ -59,7 +59,7 @@
             <div>
               <h3 class="headline mb-0">Mars Rover photos</h3>
               <div class="div-text">
-                There are different rovers on Mars gathering data. The collected
+                Different rovers have been on Mars gathering data. The collected
                 image data gathered by NASA's Curiosity, Opportunity, and Spirit
                 rovers on Mars can be found here!
               </div>
@@ -125,13 +125,13 @@
       <v-flex xs12 sm12 md6>
         <v-card>
           <v-img
-            src="https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg"
+            src="https://images.unsplash.com/photo-1532954751162-d1b6d1f3b1a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
             height="250px"
           >
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">ASTRONOMY</span>
+                  <span class="headline white--text">ASTEROID NEWS</span>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -139,11 +139,12 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Astronomy photo of the day</h3>
+              <h3 class="headline mb-0">Asteroid news</h3>
               <div class="div-text">
-                Discover the cosmos! Each day a different image or photograph of
-                our fascinating universe is featured, along with a brief
-                explanation written by a professional astronomer.
+                You can search for near earth Asteroid information. You can even
+                look up Asteroids based on their closest approach date to Earth,
+                lookup a specific Asteroid with its NASA JPL small body id, as
+                well as browse the overall data-set.
               </div>
             </div>
             <v-card-actions>
@@ -156,22 +157,27 @@
 
       <v-flex xs12 sm12 md6>
         <v-card>
-          <v-img src="https://bit.ly/2REf6xF" height="250px">
+          <v-img
+            src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1657&q=80"
+            height="250px"
+          >
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">MARS</span>
+                  <span class="headline white--text">IMAGING CAMERA</span>
                 </v-flex>
               </v-layout>
             </v-container>
           </v-img>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Mars Rover photos</h3>
+              <h3 class="headline mb-0">EPIC</h3>
               <div class="div-text">
-                There are different rovers on Mars gathering data. The collected
-                image data gathered by NASA's Curiosity, Opportunity, and Spirit
-                rovers on Mars can be found here!
+                EPIC provides information on the daily imagery collected by
+                DSCOVR's Earth Polychromatic Imaging Camera (EPIC) instrument.
+                Uniquely positioned at the Earth-Sun Lagrange point, EPIC
+                provides full disc imagery of the Earth and captures unique
+                perspectives of certain astronomical events.
               </div>
             </div>
             <v-card-actions>

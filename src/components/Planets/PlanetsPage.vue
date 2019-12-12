@@ -1,7 +1,7 @@
 <template>
   <v-container fluid fill-height style="max-height: 100vh" class="home-page">
     <!-- v-layout puts all text on top of image -->
-    <v-layout justify-center align-center column pa-5>
+    <v-layout justify-center align-center column pa-1>
       <div class="display-4 font-weight-black white--text text-xs-center">
         PLANETS
       </div>

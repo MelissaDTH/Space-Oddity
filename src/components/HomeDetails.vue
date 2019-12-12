@@ -2,7 +2,7 @@
   <v-container>
     <v-layout column>
       <v-flex class="display-2 text-xs-center my-5"
-        >Are you ready to fly away?</v-flex
+        >Are you ready to go up in the sky?</v-flex
       >
       <v-flex>
         <div class="headline mt-3">Our Solar System</div>
