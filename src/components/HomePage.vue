@@ -11,7 +11,7 @@
       <!-- mb-5 = apply a margin-bottom of 5. This spaces between header and subHeader text. -->
       <!-- <br /> <br /> -->
       <div class="display-1 font-weight-bold white--text text-xs-center">
-        Explore space and our galaxy like never before
+        Delve into space and our galaxy like never before
       </div>
       <v-btn fab class="mt-5 amber-darken-3">
         <v-icon large color="black">expand_more</v-icon>

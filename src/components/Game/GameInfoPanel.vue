@@ -77,7 +77,7 @@ export default {
     padding: 10px 30px;
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    // align-items: cente`r;
 
     &:nth-of-type(2) {
       animation-name: scalePlayHint;
@@ -90,8 +90,8 @@ export default {
   .value {
     display: inline-block;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 3rem;
   }
 

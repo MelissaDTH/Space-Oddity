@@ -10,7 +10,7 @@
       <v-flex xs12 sm12 md13>
         <v-card>
           <v-responsive>
-            <v-img :lazy-src="astronomyPhoto.hdurl">
+            <v-img :src="astronomyPhoto.hdurl">
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular
@@ -23,11 +23,12 @@
           </v-responsive>
           <v-card-title primary-title>
             <div>
-              <h2 class="headline mb-0">{{ astronomyPhoto.title }}</h2>
+              <h1 class="headline mb-0">{{ astronomyPhoto.title }}</h1>
               <h5 class="div-date">{{ astronomyPhoto.date }}</h5>
               <br />
+              <h5>Professional astronomer:</h5>
               <div class="div-explanation">
-                <i>{{ astronomyPhoto.explanation }}</i>
+                {{ astronomyPhoto.explanation }}
               </div>
             </div>
           </v-card-title>
@@ -52,5 +53,9 @@ export default {
 <style scoped>
 .div-explanation {
   font-size: 16px;
+}
+
+h5 {
+  color: rgb(44, 127, 190);
 }
 </style>
