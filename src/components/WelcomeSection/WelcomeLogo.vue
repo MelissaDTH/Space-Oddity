@@ -1,4 +1,5 @@
-// <template lang="pug" functional>
+//
+<template lang="pug" functional>
 //   section.welcomeLogoWrapper
 //     table
 //       tr(v-for="row in 3" :class="`row${row}`")
@@ -6,7 +7,8 @@
 
 // </template>
 
-// <style lang="scss" scoped>
+//
+<style lang="scss" scoped>
 // @import '@/styles/colors.scss';
 
 // $snakeBodyColor: $mainColor;
@@ -56,4 +58,5 @@
 //     }
 //   }
 // }
-// </style>
+//
+</style>

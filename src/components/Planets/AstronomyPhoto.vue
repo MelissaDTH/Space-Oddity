@@ -10,7 +10,16 @@
       <v-flex xs12 sm12 md13>
         <v-card>
           <v-responsive>
-            <v-img :src="astronomyPhoto.hdurl"></v-img>
+            <v-img :lazy-src="astronomyPhoto.hdurl">
+              <template v-slot:placeholder>
+                <v-row class="fill-height ma-0" align="center" justify="center">
+                  <v-progress-circular
+                    indeterminate
+                    color="grey lighten-5"
+                  ></v-progress-circular>
+                </v-row>
+              </template>
+            </v-img>
           </v-responsive>
           <v-card-title primary-title>
             <div>

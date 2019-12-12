@@ -25,7 +25,9 @@ const routes = [
   {
     path: '/snake-game',
     name: 'game',
-    component: () => import('../views/SnakeGame')
+    component: () => import('../views/SnakeGame'),
+    meta: { hideNavigation: true, hideFooter: true}
+    
   },
   {
     path: '/planets/photo-of-the-day',
@@ -35,7 +37,8 @@ const routes = [
   {
     path: '/planets/mars-rover',
     name: 'marsRover',
-    component: () => import('../views/MarsRover')
+    component: () => import('../views/MarsRover'),
+    meta: { hideFooter: true}
   },
   {
     path: '/signup',
