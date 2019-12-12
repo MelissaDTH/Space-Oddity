@@ -32,7 +32,8 @@ export default {
 
 .welcome {
   padding: 80px 40px;
-  // background: grey;
+  background: url('https://media.wired.com/photos/5d9276f5cdc4580008379a94/master/pass/Science_deathstarfeature_MCDROON_EC053.jpg');
+  background-size: cover;
 
   .welcomeTitle {
     color: white;
@@ -42,7 +43,7 @@ export default {
     text-transform: uppercase;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 650px;
   }
 }
 </style>

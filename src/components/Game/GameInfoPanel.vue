@@ -55,13 +55,13 @@ export default {
 
 .gameInfoWrapper {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  right: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   height: $scoreBoardHeight;
-  background: rgba(128, 0, 128, 0.6);
+  background: #1a237e;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-  border-bottom: 6px dashed $mainColor;
+  border: 3px solid $mainColor;
 
   .row {
     display: flex;

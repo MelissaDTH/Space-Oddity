@@ -18,7 +18,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar color="blue darken-4" dark>
+    <v-toolbar color="indigo darken-2" dark>
       <v-app-bar-nav-icon
         fixed
         dense
@@ -34,8 +34,7 @@
         <v-icon left>language</v-icon>Planets
       </v-btn>
       <v-btn text class="hidden-sm-and-down" to="/snake-game-welcome">
-        <v-icon left>videogame_asset
-</v-icon>Snake Game
+        <v-icon left>videogame_asset</v-icon>Space Game
       </v-btn>
       <v-btn text class="hidden-sm-and-down" to="/signup">
         <v-icon left>account_circle</v-icon>Sign up
@@ -53,7 +52,7 @@ export default {
       drawer: false,
       items: [
         { title: 'Planets' },
-        { title: 'Snake Game' },
+        { title: 'Space Game' },
         { title: 'Sign up' }
       ]
     };

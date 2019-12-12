@@ -177,27 +177,29 @@ export default {
   height: calc(100% - #{$scoreBoardHeight});
   overflow: hidden;
   margin-top: $scoreBoardHeight;
-  background: url('https://images.unsplash.com/photo-1459624470348-67edb45d81b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
-    background-size: cover;
+  background: url('https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
 
   .areaField {
     display: block;
-    border-radius: 5px;
+    border-radius: 65px;
   }
 
   .meatField {
     display: block;
-    border-radius: 100px;
+    border-radius: 10px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
-    background-color: white;
+    background-color: rgb(60, 176, 253);
   }
 
   .snakePart {
-    background-color: coral;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
   }
 
   .snakeHead {
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
   }
 }
 </style>

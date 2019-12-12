@@ -6,7 +6,10 @@ import vuetify from './plugins/vuetify';
 import '@babel/polyfill';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPlayCircle, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
+import {
+  faPlayCircle,
+  faGlobeAmericas
+} from '@fortawesome/free-solid-svg-icons';
 
 library.add(faPlayCircle, faGlobeAmericas);
 

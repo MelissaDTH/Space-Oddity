@@ -17,7 +17,7 @@ export default {
 
   computed: {
     buttonTextComputed() {
-      return this.repeat ? 'Try one more!' : 'Start game!';
+      return this.repeat ? 'TRY AGAIN' : 'START GAME';
     }
   },
 
@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/styles/colors.scss';
 
-$fontSize: 1.4rem;
+$fontSize: 1.9rem;
 
 .startGameBtn {
   padding: 10px 20px;
@@ -43,11 +43,11 @@ $fontSize: 1.4rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   height: 60px;
   transition: background-color 0.5s ease;
-  	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 
   &:hover {
-    background-color: $secondColor;
+    background-color:lightblue;
     border: 6px solid $mainColor;
     transition: background-color 0.2s ease;
   }
@@ -55,12 +55,13 @@ $fontSize: 1.4rem;
   .btnIcon {
     font-size: $fontSize;
     margin-right: 10px;
-    
   }
 
   .btnText {
     font-size: $fontSize;
-    font-family: Monospace;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+
+    font-family: Verdana;
     font-weight: bold;
   }
 }

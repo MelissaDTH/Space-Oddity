@@ -20,7 +20,7 @@ const routes = [
   {
     path: '/snake-game-welcome',
     name: 'GameWelcome',
-    component: () => import('@/views/GameWelcome.vue'),
+    component: () => import('@/views/GameWelcome.vue')
   },
   {
     path: '/snake-game',
@@ -29,7 +29,7 @@ const routes = [
   },
   {
     path: '/planets/photo-of-the-day',
-    name: "photoDay",
+    name: 'photoDay',
     component: () => import('../views/AstronomyPhoto')
   },
   {

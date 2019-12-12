@@ -11,7 +11,7 @@ export default {
   name: 'home',
 
   components: {
-    WelcomeSection,
-  },
+    WelcomeSection
+  }
 };
 </script>
