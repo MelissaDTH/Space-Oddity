@@ -4,14 +4,13 @@ import router from './router';
 import store from './store';
 import vuetify from './plugins/vuetify';
 import '@babel/polyfill';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faGithub } from '@fortawesome/free-solid-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 
-// library.add(faGithub)
+library.add(faPlayCircle);
 
-// Vue.component('font-awesome-icon', FontAwesomeIcon)
-
+Vue.component('fa-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
 
 new Vue({

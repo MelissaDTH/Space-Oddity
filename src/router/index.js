@@ -17,8 +17,14 @@ const routes = [
     component: () => import('../views/Planets')
   },
   {
-    path: '/world-map',
-    component: () => import('../views/Worldmap')
+    path: '/snake-game-welcome',
+    name: 'GameWelcome',
+    component: () => import('@/views/GameWelcome.vue'),
+  },
+  {
+    path: '/snake-game',
+    name: 'game',
+    component: () => import('../views/SnakeGame')
   },
   {
     path: '/planets/photo-of-the-day',

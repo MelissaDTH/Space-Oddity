@@ -33,8 +33,8 @@
       <v-btn text class="hidden-sm-and-down" to="/planets">
         <v-icon left>language</v-icon>Planets
       </v-btn>
-      <v-btn text class="hidden-sm-and-down" to="/world-map">
-        <v-icon left>navigation</v-icon>World map
+      <v-btn text class="hidden-sm-and-down" to="/snake-game-welcome">
+        <v-icon left>navigation</v-icon>Snake Game
       </v-btn>
       <v-btn text class="hidden-sm-and-down" to="/signup">
         <v-icon left>account_circle</v-icon>Sign up
@@ -52,7 +52,7 @@ export default {
       drawer: false,
       items: [
         { title: 'Planets' },
-        { title: 'World map' },
+        { title: 'Snake Game' },
         { title: 'Sign up' }
       ]
     };
