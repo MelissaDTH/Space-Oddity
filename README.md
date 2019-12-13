@@ -29,7 +29,7 @@ The app can do the following:
 
 ### 1. Clone the repository
 ```
-git clone git@github.com:MelissaDTH/Space-travel-client.git
+git clone https://github.com/MelissaDTH/Space-travel-client.git
 ```
 
 ### 2. Install all dependencies
