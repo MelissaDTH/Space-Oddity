@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-app
+  
     section.welcome
       welcome-logo
 
@@ -42,7 +42,7 @@ export default {
     text-transform: uppercase;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 650px;
+    margin-bottom: 750px;
   }
 }
 </style>

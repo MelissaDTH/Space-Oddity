@@ -46,9 +46,9 @@ export default {
       cost: SCORE_COST,
       nextBreakpoint: 0,
       breakpoints: [
-        { boundary: 15, passed: false },
-        { boundary: 30, passed: false },
-        { boundary: 50, passed: false },
+        { boundary: 10, passed: false },
+        { boundary: 20, passed: false },
+        { boundary: 35, passed: false },
         { boundary: 70, passed: false },
         { boundary: 100, passed: false },
         { boundary: 135, passed: false },

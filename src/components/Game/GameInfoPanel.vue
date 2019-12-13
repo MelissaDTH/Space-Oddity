@@ -10,6 +10,10 @@
       .col
         .label Speed:
         .value {{ (props.maxSpeed) ? 'MAX SPEED' : props.speed }}
+      .col
+        .label EXIT:
+        .value <v-btn text class="display-2 white text-xs-center my-5" to="/snake-game-welcome"> X </v-btn>
+        
 </template>
 
 <script>
