@@ -1,32 +1,22 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <app-navigation v-if="!$route.meta.hideNavigation"></app-navigation>
+    <v-content transition="slide-x-transition">
+      <router-view></router-view>
+      <app-footer v-if="!$route.meta.hideFooter"></app-footer>
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import AppNavigation from '@/components/AppNavigation';
+import Footer from '../src/components/Footer';
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+export default {
+  name: 'App',
+  components: {
+    'app-navigation': AppNavigation,
+    'app-footer': Footer
+  }
+};
+</script>
