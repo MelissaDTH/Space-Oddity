@@ -42,7 +42,7 @@ export default {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 650px;
   }
 }

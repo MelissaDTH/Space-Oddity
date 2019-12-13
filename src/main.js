@@ -12,7 +12,7 @@ import {
   faSpinner
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faPlayCircle, faGlobeAmericas,faSpinner);
+library.add(faPlayCircle, faGlobeAmericas, faSpinner);
 
 Vue.component('fa-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;

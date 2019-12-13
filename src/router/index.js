@@ -20,7 +20,9 @@ const routes = [
   {
     path: '/snake-game-welcome',
     name: 'GameWelcome',
-    component: () => import('@/views/GameWelcome.vue')
+    component: () => import('@/views/GameWelcome.vue'),
+    // meta: { hideFooter: true }
+
   },
   {
     path: '/snake-game',
