@@ -4,45 +4,35 @@
     padless
   >
     <v-card
+      class="flex"
       flat
       tile
-      class="indigo lighten-1 white--text text-center"
     >
-      <v-card-text>
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4 white--text"
-          icon
-        >
-          <v-icon size="24px">{{ icon }}</v-icon>
-        </v-btn>
-      </v-card-text>
+      <v-card-title class="indigo darken-2">
+        <strong class="subheading">Connect with me</strong>
 
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </v-card-text>
+        <v-spacer/>
 
-      <v-divider></v-divider>
+      <v-btn text class="hidden-sm-and-down" to="/snake-game-welcome">
+        <v-icon left>code</v-icon>Github
+      </v-btn>
+            <v-btn text class="hidden-sm-and-down" to="/snake-game-welcome">
+        <v-icon left>work</v-icon>LinkedIn
+      </v-btn>
+      </v-card-title>
 
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      <v-card-text class="py-1 white--text text-center">
+        {{ new Date().getFullYear() }} — <strong>Melissa 't Hart</strong>
       </v-card-text>
     </v-card>
   </v-footer>
 </template>
 
-<script>
-export default {
-  name: 'Footer',
-  data() {
-    return {
-      icons: [
-        { title: 'Planets' },
-        { title: 'Space Game' },
-        { title: 'Sign up' }
-      ]
-    };
-  }
-};
-</script>
+
+<style scoped>
+.subheading {
+    font-weight: bold;
+    font-size: 30px;  display: block;
+  margin: auto;
+}
+</style>

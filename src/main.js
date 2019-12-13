@@ -8,10 +8,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faPlayCircle,
-  faGlobeAmericas
+  faGlobeAmericas,
+  faSpinner
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faPlayCircle, faGlobeAmericas);
+library.add(faPlayCircle, faGlobeAmericas,faSpinner);
 
 Vue.component('fa-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
