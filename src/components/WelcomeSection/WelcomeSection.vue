@@ -1,21 +1,20 @@
 <template lang="pug">
-  section.welcome
-    welcome-logo
+  v-app
+    section.welcome
+      welcome-logo
 
-    h1.welcomeTitle Space Snake
+      h1.welcomeTitle Space Snake
 
-    start-game-button(@click="redirectToGame")
+        start-game-button(@click="redirectToGame")
 </template>
 
 <script>
 /* child components */
-import WelcomeLogo from './WelcomeLogo.vue';
 import StartGameButton from './StartGameButton.vue';
 
 export default {
   name: 'WelcomeSection',
   components: {
-    WelcomeLogo,
     StartGameButton
   },
 
