@@ -7,7 +7,6 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
   -  Vuetify (styling);
   -  Vue router;
   -  Axios (promise-based HTTP client);
-  -  Font Awesome;
   -  Core.js;
   -  Debug;
   -  Pug.
@@ -28,37 +27,30 @@ The app can do the following:
 
 ## Project setup
 
-### 1. Clone the repository
+#### 1. Clone the repository
 ```
 git clone https://github.com/MelissaDTH/Space-travel-client.git
 ```
 
-### 2. Install all dependencies
+#### 2. Install all dependencies
 ```
 npm install
 ```
 
-### 3. Compiles and hot-reloads for development
+#### 3. Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
 ## During development
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
-
-
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 
