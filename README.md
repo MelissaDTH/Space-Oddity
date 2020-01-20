@@ -11,6 +11,7 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
   -  Debug;
   -  Pug.
   
+  ![gif](./src/GIF/space-travel.gif)
 
 ## Application features
 
