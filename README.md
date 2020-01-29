@@ -11,6 +11,8 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
 - Debug;
 - Pug.
 
+## :computer: Visit the [deployed version](https://space-oddity.netlify.com/) here! :computer:
+
 **A quick overview:**
 
   <hr />
@@ -19,7 +21,6 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
 
   <hr />
 <br />
-
 
 ## Application features
 
