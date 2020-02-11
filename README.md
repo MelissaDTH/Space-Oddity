@@ -11,7 +11,10 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
 - Debug;
 - Pug.
 
-## :computer: Visit the <a href="https://space-oddity.netlify.com/" target="_blank">deployed version</a> here! :computer:
+## :computer: Visit the [deployed version](https://space-oddity.netlify.com/ target="_blank")" here! :computer:
+
+[Go to this page](http://somelink.com/?target=_blank)
+[Link](https://example.org/ "title" target="_blank")
 
 **A quick overview:**
 
