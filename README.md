@@ -12,7 +12,7 @@ This application is created by me for Codaisseur Academy. In week 10, there was 
 - Pug.
 
 ## :computer: Visit the [deployed version](https://space-oddity.netlify.com/) here! :computer:
-<a href="https://space-oddity.netlify.com/" target="_blank">Deployed version</a>
+hello some text with a link <a href="https://space-oddity.netlify.com/" target="blank">deployed</a>
 
 **A quick overview:**
 
